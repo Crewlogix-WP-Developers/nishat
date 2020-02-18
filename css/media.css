@@ -1,0 +1,206 @@
+@media (min-width: 768px) {
+  a.nav-item.nav-link.col-md-1 {
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  div#acmd-room-info .overlay {
+    position: absolute;
+    transition: .5s ease;
+    background-color: #717171;
+    opacity: 0;
+    box-shadow: 0 0 0 #000 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  div#acmd-room-info:hover .overlay,
+  .acmd-roomInfo-main.visite .overlay {
+    opacity: 0.8;
+  }
+  .overlay-text {
+      position: absolute;
+      top: 50%;
+      text-align: center;
+      left: 30%;
+      color: #fff;
+      font-weight: 700;
+  }
+  .modal-lg {
+    max-width: 920px;
+}
+}
+
+@media screen and (max-width: 991px) {
+    div#acmd-room-info .room-description-col {
+      order: 1;
+    }
+    .details-of-room-main .room-facilities {
+      width: 100%;
+    }
+    div#acmd-room-details .left-text-area {
+      width: 100%;
+    }
+    div#acmd-room-details .right-pricing-bar {
+      width: 100%;
+      margin-top: 35px;
+    }
+    .left-text-area .room-detail-img img {
+      width: 100%;
+    }
+    .room-facilities .room-facilities-img {
+      width: 33%;
+    }
+    .pricing-conainer-sticky .cancel-img {
+      position: absolute;
+      top: 0px;
+      right: 0;
+    }
+    .details-of-room-main.actively {
+      position: relative;
+    }
+    div#acmd-room-info .overlay {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+  .acmd-roomInfo-main .room-image-col {
+    width: 100%;
+  }
+  .acmd-roomInfo-main .room-description-col {
+    width: 100%;
+  }
+  .acmd-roomInfo-main .price-package-col {
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 20px;
+  }
+  .price-package-col .price-book-section {
+    bottom: unset;
+    margin-top: 10px;
+  }
+  .room-facilities .room-facilities-img {
+      width: 50%;
+  }
+  .pricing-conainer-sticky .check-out-button {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .left-text-area .room-detail-img {
+    margin: 35px -15px;
+  }
+  div#acmd-room-details .right-pricing-bar {
+    width: 110%;
+    margin-top: 35px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .accommodations-add-code-section {
+    left: 26%;
+  }
+  a.menu-tootle-link.show-mobile {
+    display: block;
+    background: #959089;
+    width: 70%;
+    padding-top: 25px;
+    text-align: center;
+    line-height: 1.25;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+  }
+  a.menu-tootle-link.show-mobile:hover {
+    text-decoration: none;
+  }
+
+  div#nav-tab .nh_companyLogo {
+    width: 30%; 
+  }
+  .menu-item-wraper {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top: 99%;
+  }
+ 
+  div#nav-tab .nav-item {
+    text-align: left;
+  }
+  div#nav-tab .nav-item .fa-chevron-down {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: none;
+  }
+  .nav-tabs .nav-link.active:after {
+    display: none;
+  }
+  .total-changes-main .tc-col {
+    width: 100%;
+  }
+  .total-changes-main form {
+    width: 100%;
+  }
+  .tc-col.tc-second-col,
+  .tc-col.tc-third-col {
+    border-left: none;
+    margin-top: 35px;
+    text-align: center;
+  }
+  .paymet-method-images {
+    padding-top: 0px;
+  }
+  a.nav-item.nav-link.nh_companyLogo {
+text-align: center !important;
+padding-bottom: 5px;
+  }
+  .nh_clReservation .accommodations-add-code-section .acmd-add-code {
+    width:100%;
+  }
+  .nh_clReservation .accommodations-add-code-section .openDiscoutCode {
+    width: 100%;
+  }
+  .nh_guestRoom{
+padding-bottom: 50px;
+  }
+  span.xs-hide {
+    display: none;
+}
+a.nh_startOver {
+    padding-left: 0;
+    display: inline-block;
+}
+footer a.nh_startOver img{
+  width: 17px;
+}
+footer p, footer a {
+  font-size: 14px;
+}
+.tab-content {
+  min-height: auto;
+}
+a.menu-tootle-link.show-mobile span{
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.nav-tabs .nav-link.nh_companyLogo img{
+  width:50px;
+}
+.nav-item.nav-link.active {
+    background-color: #a9a49d !important;
+}
+#total-changes .tc-col.tc-third-col .form-check label{
+text-align: left;
+    margin-left: 10px;
+}
+}

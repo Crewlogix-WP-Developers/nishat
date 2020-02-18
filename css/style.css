@@ -1,0 +1,1300 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, .h1 {
+  font-weight: 300;
+}
+a {
+  color: #444;
+}
+a:hover {
+  color: #000;
+}
+img {
+  max-width:100%;
+}
+html,body {
+  height: 100%;
+}
+
+.nav-tabs .nav-link {
+  background-color: #a9a49d;
+  border: none;
+  border-right: 1px solid #000;
+  border-radius: 0 !important;
+  padding: 10px 15px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  color: #000;
+  font-size: 14px;
+}
+.nav-tabs .nav-link.active {
+  background-color: #a9a49d;
+}
+i.fas.fa-chevron-down {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.nav-tabs .nav-link span {
+  display: block;
+  padding: 3px 0;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.nav-tabs .nav-link span.nh_chargesLabel {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin-top: -5px;
+}
+.nav-tabs .nav-link.active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  width: 0;
+  height: 0;
+  display: block;
+  content: "";
+  pointer-events: none;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  border-left: 1.125rem solid transparent;
+  border-right: 1.125rem solid transparent;
+  border-bottom: 1.125rem solid #f5f5f5;
+  transition: transform 0.3s ease;
+}
+
+ select::-ms-expand {
+        display: none;
+    }
+     select + i.fa {
+        float: right;
+        margin-top: -23px;
+        margin-right: 10px;
+        pointer-events: none;
+        background-color: transparent;
+        color:black!important;
+        padding-right: 5px;
+        font-size: 14px;
+    }
+
+
+.nav-tabs .nav-link:hover {
+  background-color: #817c75;
+  border-color: #000;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #000;
+  border-color: #000;
+}
+i.fas.fa-globe {
+  display: block;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.nav-tabs .nav-link.nh_companyLogo {
+  background: #000;
+  padding: 10px 0px 0px;
+}
+.nav-tabs .nav-link.nh_companyLogo img {
+  width: 63px;
+}
+.nh_guestRoom h1{
+text-align: center;
+padding-top: 15px;
+color: #000;
+}
+
+.form-control {
+  border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    padding-bottom: 10px;
+    height: 36px;
+    color: #000;
+}
+select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none; 
+        outline:none;
+     }
+.nh_addRoom {
+    clear: both;
+    padding: 0px 0px 40px;
+}
+.nh_addRoom a {
+  color: #A9842A;
+}
+.nh_addRoom i {
+padding-right: 10px;
+}
+button.btn.nh_btnGuest {
+    color: #fff;
+    font-size: 16px;
+font-weight: 700;
+    background-color: #A9842A;
+    padding: 12px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: flex;
+    margin: 30px auto 0;
+}
+button.btn.nh_btnGuest:hover {
+  background-color: #957016;
+}
+.nh_roomAddition {
+  padding-top: 5px;
+text-align: right;
+    padding-right: 30px;
+}
+
+.nh_roomAddition i {
+  color: #A9842A;
+  padding-right: 5px;
+}
+.nh_formGroupRow .form-group {
+  margin-bottom: 30px;
+}
+
+.nh_formGroupRow .form-control:focus {
+  box-shadow:none;
+  border-color: unset;
+}
+.nh_guestFrom {
+  padding-top: 50px;
+}
+
+
+/*Calndar Section CSS*/
+
+.form-control.nh_calendar {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 15px;
+    height: auto;
+    text-align: center;
+}
+.form-control.nh_calendar {
+border:none;
+}
+.daterangepicker .input-mini, .daterangepicker .input-mini.active{
+      border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.daterangepicker th.month {
+    width: auto;
+    font-size: 36px;
+    font-weight: 300;
+}
+.daterangepicker .calendar {
+    width: 50%;
+    max-width: 50%;
+
+}
+.daterangepicker .calendar td {
+    white-space: nowrap;
+    text-align: center;
+    min-width: 38px;
+    font-size: 34px;
+    font-weight: 300;
+    border-color: #000;
+    color: #000;
+    padding: 9px 0px;
+    border-radius: 0
+}
+.daterangepicker {
+    width: 100%;
+}
+.daterangepicker .calendar td:hover {
+  color: #959089;
+  border-color: #959089;
+}
+
+.daterangepicker td.in-range:hover {
+  color: #000;
+}
+.daterangepicker table {
+  border-collapse:separate; 
+border-spacing:5px;
+}
+.daterangepicker .calendar td.off {
+color: #000;
+    border-color: #ccc;
+        background: linear-gradient(to bottom right, #282828, #282828 49%, #000000 50%, #282828 52%, #282828) !important;
+
+}
+.daterangepicker th {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+.daterangepicker .daterangepicker_input {
+    display: none;
+}
+
+span.date-price {
+    display: block;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+}
+.date-currency {
+  display: block;
+  text-transform: uppercase;
+}
+
+.daterangepicker.opensright:before {
+  display: none;
+}
+.nh_calendarMessage {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.btn-default.nh_btnGuest.btnGoback{
+    margin-right: 22px;
+    background: none;
+    border: 1px solid #A9842A;
+    color: #A9842A;
+}
+.btn-default.nh_btnGuest.btnGoback:hover {
+  background:none;
+}
+.nh_clReservation .btn-default.nh_btnGuest{
+  display: unset;
+}
+
+
+/****   Accommodations tab styling start ***/
+
+
+.accommodations-tab-main .nh_addRoom {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding: 8px 0px;
+}
+.accommodations-tab-main .nh_addRoom a {
+  font-weight: 700;
+}
+.accommodations-tab-header,
+.accommodations-add-code-section {
+  text-align: center;
+}
+.accommodations-tab-main .accommodations-tab-header button {
+  color: #444;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 5px solid rgb(149, 144, 137);
+  margin-top: 10px;
+}
+.accommodations-add-code-section {
+  margin-top: 20px;
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  left: 40%;
+}
+.accommodations-add-code-section .acmd-add-code {
+  width: 250px;
+  margin: 0 auto;
+  border-bottom: 1px solid #141414;
+  padding: 5px 0px;
+}
+.accommodations-add-code-section .acmd-add-code a {
+  color: #141414;
+  line-height: 26px;
+}
+.accommodations-add-code-section .acmd-add-code a:hover {
+  text-decoration: none;
+}
+/*.accommodations-add-code-section .acmd-add-code span {
+  float: left;
+}*/
+.accommodations-add-code-section .acmd-add-code i {
+  padding-left: 130px;
+  font-size: 16px;
+}
+.accommodations-add-code-section .openDiscoutCode {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 10px 0px;
+}
+.accommodations-add-code-section .openDiscoutCode input {
+  margin-top: 10px;
+  width: 215px;
+  height: 35px;
+}
+.accommodations-add-code-section .openDiscoutCode select {
+  width: 215px;
+  height: 35px;
+  padding: 0 1.625rem 0 1rem;
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid #000;
+}
+.accommodations-add-code-section .openDiscoutCode input.text {
+  border: 1px solid #000;
+  padding: 0 1.625rem 0 1rem;
+}
+.accommodations-add-code-section .openDiscoutCode input.cancel {
+  border: 1px solid #a9842a;
+  background: transparent;
+  font-weight: 700;
+}
+.accommodations-add-code-section .openDiscoutCode input.add {
+  border: 1px solid #a9842a;
+  background: transparent;
+  background-color: #a9842a;
+  color: #fff;
+  font-weight: 700;
+}
+.accommodations-add-code-section .openDiscoutCode input.text:focus {
+  outline: none;
+}
+.accommodations-add-code-section .openDiscoutCode {
+  display: none;
+}
+.accommodations-add-code-section.activeForm .openDiscoutCode {
+  display: block;
+}
+i.fas.fa-chevron-up {
+  display: none;
+}
+.accommodations-add-code-section.activeForm i.fas.fa-chevron-down {
+  display: none;
+}
+.accommodations-add-code-section.activeForm i.fas.fa-chevron-up {
+  display: inline;
+}
+.accommodations-add-code-section.activeForm .acmd-add-code {
+  border-bottom: none;
+}
+.accommodations-tab-main .container {
+  margin-top: 90px;
+}
+.acmd-roomInfo-main {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.acmd-roomInfo-main .room-image-col {
+  width: 30%;
+}
+.acmd-roomInfo-main .room-description-col {
+  width: 30%;
+  margin-top: 2rem;
+  margin-left: 15px;
+}
+.acmd-roomInfo-main .price-package-col {
+  width: 32%;
+  position: relative;
+}
+.accommodations-tab-main .acmd-roomInfo-main h3 {
+  color: #a9842a;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+.acmd-roomInfo-main .room-description-col span {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+.acmd-roomInfo-main .room-description-col span i {
+  font-size: 22px;
+  padding-left: 20px;
+  display: block;
+}
+.room-description-col .room-description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Lato", Roboto, sans-serif !important;
+  color: #444;
+  margin-top: 10px;
+}
+.room-description-col .view-room-detail {
+  color: #a9842a;
+  font-size: 1rem;
+  line-height: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.price-package-col .pricing-detail {
+  padding: 3px 15px 3px 10px;
+  width: 350px;
+  height: fit-content;
+}
+.price-package-col .pricing-detail:hover {
+  background-color: rgba(68, 68, 68, 0.9);
+  color: rgb(255, 255, 255);
+}
+
+.price-package-col .pricing-detail .pricing-amount {
+  float: right;
+}
+.price-package-col .pricing-detail p {
+  padding-left: 16px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  line-height: 22px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.price-package-col .price-book-section {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.5;
+  background-color: rgba(68, 68, 68, 0.9);
+  position: absolute;
+  bottom: 0px;
+  display: inline-flex;
+  right: 0px;
+}
+.price-package-col .price-book-section div {
+  padding: 0.375rem 1.25rem 0;
+}
+.price-package-col .price-book-section button {
+  background-color: #957016;
+  border: none;
+  color: #fff;
+  padding: 0.75rem 1.1875rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.details-of-room-main {
+  display: none;
+  padding-top: 55px;
+  margin-bottom: 35px;
+}
+.details-of-room-main.actively {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-text-area {
+  width: 70%;
+}
+.right-pricing-bar {
+  width: 30%;
+}
+.details-of-room-main .left-text-area .h1 {
+  color: #959089;
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+.details-of-room-main .left-text-area p.description {
+  color: #141414;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.details-of-room-main .left-text-area p.room-detail.info {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.left-text-area .number-of-person {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.left-text-area .room-detail-img {
+  margin: 35px 0px;
+}
+.pricing-conainer-sticky .cart-pricing-details {
+  border: 1px solid #141414;
+  padding: 0 1.125rem;
+}
+.cart-pricing-details .h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 1em;
+  line-height: 1.1;
+}
+.cart-pricing-details .label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.cart-pricing-details .label a {
+  color: #a9842a;
+  text-decoration: underline;
+}
+.pricing-conainer-sticky .cancel-img {
+  text-align: right;
+}
+.pricing-conainer-sticky .cancel-img img {
+  width: 25px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+.cart-price {
+  color: #141414;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.cart-pricing-details .cart-price-right {
+  float: right;
+}
+.cart-pricing-details hr {
+  border-top: 2px dotted #444;
+}
+.pricing-conainer-sticky .check-out-button {
+  background-color: #a9842a;
+  border: 1px solid #a9842a;
+  padding: 0.75rem 1.1875rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.pricing-conainer-sticky .check-out-button a {
+  color: #fff;
+}
+.pricing-conainer-sticky .check-out-button:hover {
+  background-color: #957016;
+}
+.pricing-conainer-sticky .check-out-button a:hover {
+  text-decoration: none;
+}
+.details-of-room-main .room-facilities {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 35px;
+}
+.room-facilities .room-facilities-img {
+  width: 20%;
+  text-align: center;
+}
+.room-facilities .room-facilities-img img {
+  width: 25%;
+  margin-bottom: 5px;
+  filter: opacity(0.6);
+}
+.room-facilities .room-facilities-img p {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Lato", Roboto, sans-serif !important;
+  line-height: 1.5;
+}
+.details-of-room-main.activly {
+  display: flex;
+}
+.room-image-col img {
+  width: 100%;
+}
+.room-image-col {
+  position: relative;
+}
+a.menu-tootle-link.show-mobile {
+  display: none;
+}
+.menu-item-wraper {
+  width: 100%;
+}
+
+
+/*Awais CSS*/
+.nh_clReservation {
+  padding-bottom: 100px;
+}
+
+.nh_clReservation .accommodations-add-code-section .acmd-add-code{
+text-align: left;
+width:450px;
+    padding-left: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #141414;
+}
+.nh_clReservation .accommodations-add-code-section .acmd-add-code i {
+  float: right;
+  padding-left: unset;
+      padding-right: 15px;
+}
+.nh_clReservation .accommodations-add-code-section .openDiscoutCode {
+      width: 450px;
+          border: 1px solid #ccc;
+}
+.nh_clReservation .accommodations-add-code-section .openDiscoutCode input {
+      width: 100%;
+      height:40px;
+}
+
+.nh_clReservation span.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+.nh_clReservation .select2-container .select2-selection--single {
+  height: 40px;
+    border-radius: 0;
+        border: 1px solid #ccc;
+}
+.nh_clReservation .select2-container--default .select2-selection--single .select2-selection__rendered {
+      line-height: 40px;
+      text-align: left;
+      color: #000;
+      padding-left: 15px;
+
+}
+.nh_clReservation .accommodations-add-code-section .openDiscoutCode input.text {
+   border: 1px solid #ccc;
+}
+.nh_clReservation .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height:40px;
+  right:7px;
+}
+.nh_clReservation .accommodations-add-code-section .acmd-add-code i {
+    font-size: 14px;
+    padding-top: 10px;
+    }
+.nh_clReservation .accommodations-add-code-section.activeForm .openDiscoutCode {
+  padding: 15px 10px;
+}
+
+.nh_clReservation .accommodations-add-code-section .openDiscoutCode input.cancel {
+  width: 49%;
+    float: left;
+    margin-right: 1%;
+        margin-top: 15px;
+        height:36px;
+        line-height: 34px;
+        font-size: 15px;
+}
+.nh_clReservation .accommodations-add-code-section .openDiscoutCode input.add{
+    width: 49%;
+    margin-left: 1%;
+        margin-top: 15px;
+        height:36px;
+        line-height: 34px;
+        font-size: 15px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #a9842b !important;
+}
+.nh_clReservation .accommodations-add-code-section {
+    margin-top: 100px;
+    position: static;
+
+}
+.nh_clReservation .select2-container--default .select2-selection--single .select2-selection__rendered, .nh_clReservation .select2-container .select2-selection--single {
+  outline:none;
+}
+
+
+
+/*Footer CSS*/
+a.nh_startOver {
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #959089;
+    padding-top: 15px;
+    color:#000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #000;
+    text-decoration: underline;
+}
+footer a.nh_startOver img {
+  width: 22px;
+    position: relative;
+    top: -3px;
+    left: -5px;
+
+}
+.tab-content {
+min-height: 100%;
+}
+
+/*Footer popups css*/ 
+
+.nh_propertyPopups{
+padding:40px;
+border-radius: 0;
+}
+.nh_propertyDetailed h2 {
+  font-size: 30px;
+  color: #A9842A;
+  font-weight: 300;
+}
+.nh_propertyPopups .carousel-control-prev-icon {
+background-image: url(../images/prevArrow.svg);
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.nh_propertyPopups .carousel-control-next-icon {
+  background-image: url(../images/prevArrow.svg);
+}
+.nh_propertyPopups .carousel-inner {
+  height: 23em;
+}
+.nh_propertyPopups .carousel-inner .carousel-item {
+  height: 100%;
+}
+.nh_propertyPopups .carousel-inner img {
+height:100%;
+}
+.nh_propertyDetailed {
+      padding-top: 20px;
+  padding-right: 30px;
+}
+.nh_propertyDetailed p {
+  font-size: 14px;
+  margin-top: 10px;
+    margin-bottom: 0;
+}
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+      width: 26px;
+    height: 26px;
+}
+button.close{
+opacity: 1;
+    position: absolute;
+        top: 2px;
+    right: 5px;
+    outline: none;
+}
+
+.nh_cancelReservation .modal-content {
+padding: 40px 30px 15px;
+    border-radius: 0;
+}
+.nh_cancelReservation .modal-header {
+    position: absolute;
+    top: -30%;
+    left: 0;
+    border: none;
+    width: 100%;
+}
+.nh_cancelReservation .modal-header h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin: 0 auto;
+}
+.modal-backdrop.show {
+    opacity: .8;
+}
+
+.nh_cancelReservation .modal-content .form-group {
+      float: left;
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+
+}
+.nh_cancelReservation .modal-content .form-control{
+      padding-bottom: 0;
+    height: 50px;
+}
+.nh_cancelReservation .modal-content h4{
+      text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.form-control::-webkit-input-placeholder { 
+  color: #aaa;
+  font-weight: 300;
+  font-size: 18px;
+
+}
+.form-control::-moz-placeholder { 
+  color: #aaa;
+   font-weight: 300;
+  font-size: 18px;
+}
+.form-control:-ms-input-placeholder { 
+  color: #aaa;
+   font-weight: 300;
+  font-size: 18px;
+}
+.form-control:-moz-placeholder { 
+  color: #aaa;
+   font-weight: 300;
+  font-size: 18px;
+}
+.modal-header .close {
+  padding-top: 36px;
+}
+.form-control:focus {
+    color: #444;
+  background-color: #f5f5f5;
+    border-color: #444;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-group label.required {
+      position: absolute;
+    right: -5%;
+    color: red;
+    font-size: 22px;
+}
+.nh_cancelReservation .modal-content .form-group button.btn.nh_btnGuest {
+margin: 0;
+    display: unset;
+    float: right;
+    width: 50%;
+    background: none;
+    border: 1px solid #a9842b;
+    color: #ccc;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.nh_cancelReservation .modal-content .form-group .mandatory-field{
+      padding-top: 30px;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: red;
+}
+.nh_cancelReservation .modal-content .form-group .mandatory-field span{
+  font-size: 22px;
+}
+
+.nh_guestRoom .nh_clReservation{
+padding-bottom: 0;
+}
+.nh_guestRoom .nh_clReservation .accommodations-add-code-section {
+  margin-top: 0
+}
+nav i.fas.fa-chevron-down {
+  display: none;
+}
+th.next.available, th.prev.available {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+th.next.available i, th.prev.available i{
+  font-size: 22px;
+    line-height: 34px;
+}
+
+
+
+
+/*** Total changes styling start  ***/
+div#total-changes .nh_addRoom {
+    text-align: center;
+}
+.total-changes-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+.total-changes-main  .tc-col {
+    width: 33%;
+    padding: 0px 15px;
+}
+.total-changes-main .h1 {
+  margin-bottom: 2.125rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.1;
+  padding: 0 1.5625rem;
+}
+.tc-col.tc-second-col {
+    border-left: 1px dashed #141414;
+}
+.tc-col.tc-third-col {
+  border-left: 1px dashed #141414;
+}
+.form-row .form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+.total-changes-main .tc-col form {
+    margin: 0 auto;
+}
+.charges-cart-main p.label {
+  font-size: .875rem;
+  margin-left: .9375rem;
+  color: #A9842A;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+.cart-items-chagnes {
+  width: 100%;
+}
+.cart-items-chagnes p.item-name .text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #A9842A;
+}
+.text-right {
+  float: right;
+}
+.charges-cart-main .cart-items-chagnes i {
+  font-size: 12px;
+}
+.cart-items-chagnes .text-right {
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: right;
+}
+.cart-items-chagnes p.cart-item-value {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+.cart-items-chagnes  p.sub-total,
+.cart-items-chagnes  p.tax,
+.cart-items-chagnes p.total-price {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.cart-items-chagnes p.tax {
+  margin-bottom: 2px;
+}
+.cart-items-chagnes p.add-other a {
+  font-weight: 700;
+  color: #A9842A;
+}
+.cart-items-chagnes p.total-price {
+    border-bottom: 1px dashed;
+    padding-bottom: 12px;
+}
+.cart-items-chagnes p.sub-total {
+    border-bottom: 1px dashed;
+    padding-bottom: 12px;
+}
+.total-changes-main form {
+  width: 80%;
+}
+.total-changes-main form .form-group,
+.total-changes-main form .dropdown.bootstrap-select.countrypicker {
+  width: 100%;
+}
+.total-changes-main form .dropdown.bootstrap-select.countrypicker button.btn.dropdown-toggle.btn-light {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: unset;
+}
+.paymet-method-images {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.paymet-method-images img {
+  width: 4.625rem;
+  height: 2.75rem;
+  padding-left: 5px;
+}
+.tc-third-col .second-col-form {
+  padding-top: 30px;
+}
+.tc-third-col .second-col-form .form-check {
+  cursor: pointer;
+  color: #000;
+  font-family: "Lato", Roboto, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.tc-third-col .second-col-form .form-check input#inputcheckbox {
+  width: 1.25rem;
+  cursor: pointer;
+  height: 1.25rem;
+}
+.form-check a {
+  color: #A9842A;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tc-third-col .second-col-form .btn-primary {
+  background: #A9842A;
+  margin-top: 1.25rem;
+  transition: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: .75rem 1.1875rem;
+  width: 100%;
+  border-color: #A9842A;
+}
+.tc-third-col .second-col-form .btn-primary:hover {
+  border-color: #A9842A;
+  background: #957016;
+}
+.accommodations-tab-header .nh_addRoom{
+      text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 8px 0px;
+}
+.accommodations-tab-header .nh_addRoom a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+div#total-changes{
+  margin-top: 40px;
+}
+#total-changes .form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+#total-changes .form-control {
+  height: 48px;
+  padding-bottom: 0;
+}
+#total-changes input.form-check-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+} 
+#total-changes .checkmark {
+    position: absolute;
+    top: 7px;
+    left: -4px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+#total-changes input ~ .checkmark {
+background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#total-changes input:checked ~ .checkmark {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(17,110,181,.25);
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+ #total-changes input:checked ~ .checkmark:after {
+    display: block;
+}
+ #total-changes .checkmark:after {
+left: 5px;
+    top: 1px;
+    width: 7px;
+    height: 13px;
+    border: solid #3a3a39;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.accommodations-add-code-section .select2-container--default .select2-selection--single {
+    border: 1px solid #000;
+    border-radius: 0;
+    height: 40px;
+    outline: none;
+}
+.accommodations-add-code-section .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000;
+    line-height: 36px;
+    padding-left: 15px;
+    text-align: left;
+}
+.accommodations-add-code-section .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px;
+  right: 5px;
+}
+.accommodations-add-code-section .openDiscoutCode input.cancel {
+  margin-top: 15px;
+}
+.nav-languages ~ .acmd-language-code {
+  display: none;
+}
+.nav-languages.activeForm ~ .acmd-language-code {
+display: block;
+}
+.acmd-language-code {
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    background-color: #fff;
+        z-index: 991;
+}
+
+.acmd-language-code .openDiscoutCode {
+    width: 270px;
+    margin: 0 auto;
+    border: 1px solid #000;
+        border-top: 1px solid #f5f5f5;
+    padding: 10px 20px;
+}
+
+.acmd-language-code .select2-container--default .select2-selection--single {
+    border: 1px solid #000;
+    border-radius: 0;
+    height: 40px;
+    outline: none;
+}
+.acmd-language-code .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000;
+    line-height: 36px;
+    padding-left: 15px;
+    text-align: left;
+}
+.acmd-language-code .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px;
+  right: 5px;
+}
+
+.acmd-language-code .openDiscoutCode input {
+    border: 1px solid #000;
+    padding: 0 1.625rem 0 1rem;
+        margin-top: 10px;
+    width: 100%;
+    height: 35px;
+}
+.acmd-language-code .openDiscoutCode input.cancel {
+    border: 1px solid #a9842a;
+    background: transparent;
+    font-weight: 700;
+}
+
+.acmd-language-code .openDiscoutCode input.add {
+    border: 1px solid #a9842a;
+    background: transparent;
+    background-color: #a9842a;
+    color: #fff;
+    font-weight: 700;
+}
+.acmd-language-code .openDiscoutCode .select2-container {
+  width: 100% !important;
+}
+.acmd-language-code .openDiscoutCode label {
+      font-weight: 400;
+    color: #444;
+    margin-top: 10px;
+ margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.acmd-language-code .openDiscoutCode .form-group {
+  margin-bottom: 0;
+}
+.acmd-language-code .openDiscoutCode input.add:hover {
+      background-color: #957016;
+}
+
+.nav-languages.activeForm:before{
+  position: absolute;
+    bottom: 0px;
+    left: 50%;
+    right: 50%;
+    width: 0;
+    height: 0;
+    display: block;
+    content: "";
+    pointer-events: none;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    border-left: 1.125rem solid transparent;
+    border-right: 1.125rem solid transparent;
+    border-bottom: 1.125rem solid #f5f5f5;
+    transition: transform 0.3s ease;
+}
+
+
+/*Total Tabs*/
+.total-changes-main .cart-value-toggle {
+  display: none;
+}
+.toggle-wraper.cart-active .fa-chevron-down:before {
+  content: "\f077";
+}
+.cart-value-toggle p {
+  margin-bottom: 2px;
+}
+.tax.single-roome-tax {
+  border-bottom: 1px dashed;
+  padding: 10px 0px;
+}
+.tax.single-roome-tax b {
+    color: #000;
+}
+.charges-cart-main .cart-items-chagnes i {
+  font-size: 12px;
+  position: relative;
+  padding-top: -24px;
+  bottom: 3px;
+  right: 3px;
+}
+.charges-cart-main .cart-items-chagnes p.s-requiest {
+  padding-top: 10px;
+  color: #000;
+}
+p.tax.net-tex {
+  border-bottom: 1px dashed;
+  padding: 10px 0px;
+}
+.cart-items-chagnes p.sub-total {
+  border-bottom: 1px dashed;
+  padding-bottom: 12px;
+  margin-bottom: 0px;
+}
+.cart-items-chagnes .net-sub-total {
+    margin-top: 35px;
+}
+p.total-price.net-total-price {
+  padding-top: 10px;
+  color: #000;
+}
+p.sub-total span.price.text-right {
+  position: relative;
+  top: -15px;
+}
+.tc-col.tc-first-col {
+  padding-right: 35px;
+}
+.tc-col.tc-first-col .h1 {
+  padding-left: 0px;
+}
+.charges-cart-main p.item-name {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+select.mdb-select.md-form {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 48px;
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+.tc-col.tc-second-col form .form-group i {
+position: relative;
+    top: -15px;
+  }
