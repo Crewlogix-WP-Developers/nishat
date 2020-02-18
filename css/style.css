@@ -18,7 +18,7 @@ html,body {
   height: 100%;
 }
 .nav-tabs .nav-link {
-  background-color: #a9a49d;
+  background-color: #8597b0;
   border: none;
   border-right: 1px solid #000;
   border-radius: 0 !important;
@@ -30,7 +30,7 @@ html,body {
   font-size: 14px;
 }
 .nav-tabs .nav-link.active {
-  background-color: #a9a49d;
+  background-color: #8597b0;
 }
 i.fas.fa-chevron-down {
   font-size: 18px;
@@ -84,7 +84,7 @@ i.fas.fa-chevron-down {
 
 
 .nav-tabs .nav-link:hover {
-  background-color: #817c75;
+  background-color: #8597b0;
   border-color: #000;
 }
 .nav-tabs .nav-item.show .nav-link,
@@ -131,7 +131,7 @@ select{
     padding: 0px 0px 40px;
 }
 .nh_addRoom a {
-  color: #A9842A;
+  color: #8597b0;
 }
 .nh_addRoom i {
 padding-right: 10px;
@@ -140,7 +140,7 @@ button.btn.nh_btnGuest {
     color: #fff;
     font-size: 16px;
 font-weight: 700;
-    background-color: #A9842A;
+    background-color: #8597b0;
     padding: 12px 20px;
     border-radius: 0;
     text-transform: uppercase;
@@ -148,7 +148,7 @@ font-weight: 700;
     margin: 30px auto 0;
 }
 button.btn.nh_btnGuest:hover {
-  background-color: #957016;
+  background-color: #8597b0;
 }
 .nh_roomAddition {
   padding-top: 5px;
@@ -157,7 +157,7 @@ text-align: right;
 }
 
 .nh_roomAddition i {
-  color: #A9842A;
+  color: #8597b0;
   padding-right: 5px;
 }
 .nh_formGroupRow .form-group {
@@ -229,7 +229,7 @@ border-spacing:5px;
 .daterangepicker .calendar td.off {
 color: #000;
     border-color: #ccc;
-        background: linear-gradient(to bottom right, #282828, #282828 49%, #000000 50%, #282828 52%, #282828) !important;
+        background: linear-gradient(to bottom right, #ACB6C7, #ACB6C7 49%, #000000 50%, #ACB6C7 52%, #ACB6C7) !important;
 
 }
 .daterangepicker th {
@@ -262,8 +262,8 @@ span.date-price {
 .btn-default.nh_btnGuest.btnGoback{
     margin-right: 22px;
     background: none;
-    border: 1px solid #A9842A;
-    color: #A9842A;
+    border: 1px solid #8597b0;
+    color: #8597b0;
 }
 .btn-default.nh_btnGuest.btnGoback:hover {
   background:none;
@@ -348,14 +348,14 @@ span.date-price {
   padding: 0 1.625rem 0 1rem;
 }
 .accommodations-add-code-section .openDiscoutCode input.cancel {
-  border: 1px solid #a9842a;
+  border: 1px solid #8597b0;
   background: transparent;
   font-weight: 700;
 }
 .accommodations-add-code-section .openDiscoutCode input.add {
-  border: 1px solid #a9842a;
+  border: 1px solid #8597b0;
   background: transparent;
-  background-color: #a9842a;
+  background-color: #8597b0;
   color: #fff;
   font-weight: 700;
 }
@@ -401,7 +401,7 @@ i.fas.fa-chevron-up {
   position: relative;
 }
 .accommodations-tab-main .acmd-roomInfo-main h3 {
-  color: #a9842a;
+  color: #8597b0;
   font-size: 1.875rem;
   font-weight: 300;
 }
@@ -423,7 +423,7 @@ i.fas.fa-chevron-up {
   margin-top: 10px;
 }
 .room-description-col .view-room-detail {
-  color: #a9842a;
+  color: #8597b0;
   font-size: 1rem;
   line-height: 18px;
   font-weight: 400;
@@ -435,7 +435,7 @@ i.fas.fa-chevron-up {
   height: fit-content;
 }
 .price-package-col .pricing-detail:hover {
-  background-color: rgba(68, 68, 68, 0.9);
+  background-color: #ACB6C7;
   color: rgb(255, 255, 255);
 }
 
@@ -452,13 +452,13 @@ i.fas.fa-chevron-up {
   text-decoration: underline;
 }
 .price-package-col .price-book-section {
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
   cursor: pointer;
   line-height: 1.5;
-  background-color: rgba(68, 68, 68, 0.9);
+  background-color: #ACB6C7;
   position: absolute;
   bottom: 0px;
   display: inline-flex;
@@ -468,7 +468,7 @@ i.fas.fa-chevron-up {
   padding: 0.375rem 1.25rem 0;
 }
 .price-package-col .price-book-section button {
-  background-color: #957016;
+  background-color: #8597b0;
   border: none;
   color: #fff;
   padding: 0.75rem 1.1875rem;
@@ -493,7 +493,7 @@ i.fas.fa-chevron-up {
   width: 30%;
 }
 .details-of-room-main .left-text-area .h1 {
-  color: #959089;
+  color: #8597b0;
   font-size: 2.25rem;
   line-height: 1.1;
 }
@@ -532,7 +532,7 @@ i.fas.fa-chevron-up {
   font-size: 1rem;
 }
 .cart-pricing-details .label a {
-  color: #a9842a;
+  color: #8597b0;
   text-decoration: underline;
 }
 .pricing-conainer-sticky .cancel-img {
@@ -556,8 +556,8 @@ i.fas.fa-chevron-up {
   border-top: 2px dotted #444;
 }
 .pricing-conainer-sticky .check-out-button {
-  background-color: #a9842a;
-  border: 1px solid #a9842a;
+  background-color: #8597b0;
+  border: 1px solid #8597b0;
   padding: 0.75rem 1.1875rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -570,7 +570,7 @@ i.fas.fa-chevron-up {
   color: #fff;
 }
 .pricing-conainer-sticky .check-out-button:hover {
-  background-color: #957016;
+  background-color: #8597b0;
 }
 .pricing-conainer-sticky .check-out-button a:hover {
   text-decoration: none;
@@ -687,7 +687,7 @@ width:450px;
         font-size: 15px;
 }
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #a9842b !important;
+  background-color: #8597b0 !important;
 }
 .nh_clReservation .accommodations-add-code-section {
     margin-top: 100px;
@@ -737,7 +737,7 @@ border-radius: 0;
 }
 .nh_propertyDetailed h2 {
   font-size: 30px;
-  color: #A9842A;
+  color: #8597b0;
   font-weight: 300;
 }
 .nh_propertyPopups .carousel-control-prev-icon {
@@ -942,7 +942,7 @@ div#total-changes .nh_addRoom {
 .charges-cart-main p.label {
   font-size: .875rem;
   margin-left: .9375rem;
-  color: #A9842A;
+  color: #8597b0;
   line-height: 1.5;
   margin-bottom: 0px;
 }
@@ -952,7 +952,7 @@ div#total-changes .nh_addRoom {
 .cart-items-chagnes p.item-name .text {
   font-size: 1rem;
   font-weight: 400;
-  color: #A9842A;
+  color: #8597b0;
 }
 .text-right {
   float: right;
@@ -983,7 +983,7 @@ div#total-changes .nh_addRoom {
 }
 .cart-items-chagnes p.add-other a {
   font-weight: 700;
-  color: #A9842A;
+  color: #8597b0;
 }
 .cart-items-chagnes p.total-price {
     border-bottom: 1px dashed;
@@ -1031,12 +1031,12 @@ div#total-changes .nh_addRoom {
   height: 1.25rem;
 }
 .form-check a {
-  color: #A9842A;
+  color: #8597b0;
   text-decoration: underline;
   cursor: pointer;
 }
 .tc-third-col .second-col-form .btn-primary {
-  background: #A9842A;
+  background: #8597b0;
   margin-top: 1.25rem;
   transition: none;
   text-transform: uppercase;
@@ -1044,11 +1044,11 @@ div#total-changes .nh_addRoom {
   text-align: center;
   padding: .75rem 1.1875rem;
   width: 100%;
-  border-color: #A9842A;
+  border-color: #8597b0;
 }
 .tc-third-col .second-col-form .btn-primary:hover {
-  border-color: #A9842A;
-  background: #957016;
+  border-color: #8597b0;
+  background: #8597b0;
 }
 .accommodations-tab-header .nh_addRoom{
       text-align: center;
@@ -1178,15 +1178,15 @@ display: block;
     height: 35px;
 }
 .acmd-language-code .openDiscoutCode input.cancel {
-    border: 1px solid #a9842a;
+    border: 1px solid #8597b0;
     background: transparent;
     font-weight: 700;
 }
 
 .acmd-language-code .openDiscoutCode input.add {
-    border: 1px solid #a9842a;
+    border: 1px solid #8597b0;
     background: transparent;
-    background-color: #a9842a;
+    background-color: #8597b0;
     color: #fff;
     font-weight: 700;
 }
@@ -1204,7 +1204,7 @@ display: block;
   margin-bottom: 0;
 }
 .acmd-language-code .openDiscoutCode input.add:hover {
-      background-color: #957016;
+    background-color: #8597b0;
 }
 
 .nav-languages.activeForm:before{
