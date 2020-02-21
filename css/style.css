@@ -77,7 +77,7 @@ i.fas.fa-chevron-down {
         margin-right: 10px;
         pointer-events: none;
         background-color: transparent;
-        color:black!important;
+        color:#bac2d1;
         padding-right: 5px;
         font-size: 14px;
     }
@@ -110,14 +110,14 @@ padding-top: 15px;
 color: #383838;
 }
 
-.form-control {
+/*.form-control {
   border: none;
     border-bottom: 1px solid;
     border-radius: 0;
     padding-bottom: 10px;
     height: 36px;
     color: #383838;
-}
+}*/
 select{
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -125,10 +125,10 @@ select{
         appearance: none; 
         outline:none;
      }
-.nh_addRoom {
+/*.nh_addRoom {
     clear: both;
     padding: 0px 0px 40px;
-}
+}*/
 .nh_addRoom a {
   color: #8798B0;
 }
@@ -137,10 +137,8 @@ padding-right: 10px;
 }
 button.btn.nh_btnGuest {
     color: #fff;
-    font-size: 16px;
-font-weight: 700;
     background-color: #8798B0;
-    padding: 12px 20px;
+    
     border-radius: 0;
     text-transform: uppercase;
     display: flex;
@@ -149,11 +147,11 @@ font-weight: 700;
 button.btn.nh_btnGuest:hover {
   background-color: #8798B0;
 }
-.nh_roomAddition {
+/*.nh_roomAddition {
   padding-top: 5px;
 text-align: right;
     padding-right: 30px;
-}
+}*/
 
 .nh_roomAddition i {
   color: #8798B0;
@@ -178,7 +176,7 @@ text-align: right;
     font-size: 24px;
     font-weight: 300;
     padding: 15px;
-    height: auto;
+    height: 60px;
     text-align: center;
 }
 .form-control.nh_calendar {
@@ -189,17 +187,17 @@ border:none;
     border-bottom: 1px solid;
     border-radius: 0;
 }
-.daterangepicker th.month {
+/*.daterangepicker th.month {
     width: auto;
     font-size: 36px;
     font-weight: 300;
-}
+}*/
 .daterangepicker .calendar {
     width: 50%;
     max-width: 50%;
 
 }
-.daterangepicker .calendar td {
+/*.daterangepicker .calendar td {
     white-space: nowrap;
     text-align: center;
     min-width: 38px;
@@ -209,7 +207,7 @@ border:none;
     color: #383838;
     padding: 9px 0px;
     border-radius: 0
-}
+}*/
 .daterangepicker {
     width: 100%;
 }
@@ -231,11 +229,11 @@ color: #383838;
         background: linear-gradient(to bottom right, #606060, #606060 49%, #383838 50%, #606060 52%, #606060) !important;
 
 }
-.daterangepicker th {
+/*.daterangepicker th {
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 400;
-  }
+  }*/
 .daterangepicker .daterangepicker_input {
     display: none;
 }
@@ -847,17 +845,17 @@ padding: 40px 30px 15px;
 }
 .form-control:focus {
     color: #444;
-  background-color: #f5f5f5;
-    border-color: #444;
+    background-color: #f5f5f5;
+    border-color: #bac2d1 !important;
     outline: 0;
     box-shadow: none;
 }
 
 .form-group label.required {
-      position: absolute;
-    right: -5%;
-    color: red;
-    font-size: 22px;
+/*    position: absolute;*/
+    /*right: -5%;*/
+/*    color: red;
+    font-size: 22px;*/
 }
 .nh_cancelReservation .modal-content .form-group button.btn.nh_btnGuest {
 margin: 0;
@@ -893,11 +891,11 @@ padding-bottom: 0;
 nav i.fas.fa-chevron-down {
   display: none;
 }
-th.next.available, th.prev.available {
+/*th.next.available, th.prev.available {
     border: 1px solid #ccc;
     background-color: #f5f5f5;
     border-radius: 50%;
-}
+}*/
 th.next.available i, th.prev.available i{
   font-size: 22px;
     line-height: 34px;
@@ -917,21 +915,21 @@ div#total-changes .nh_addRoom {
 }
 .total-changes-main  .tc-col {
     width: 33%;
-    padding: 0px 15px;
+    padding: 0px 20px;
 }
-.total-changes-main .h1 {
+/*.total-changes-main .h1 {
   margin-bottom: 2.125rem;
   font-size: 1.5rem;
   font-weight: 100;
   line-height: 1.1;
   padding: 0 1.5625rem;
-}
-.tc-col.tc-second-col {
+}*/
+/*.tc-col.tc-second-col {
     border-left: 1px dashed #141414;
-}
-.tc-col.tc-third-col {
+}*/
+/*.tc-col.tc-third-col {
   border-left: 1px dashed #141414;
-}
+}*/
 .form-row .form-group.required .control-label:after {
   content:"*";
   color:red;
@@ -993,9 +991,9 @@ div#total-changes .nh_addRoom {
     border-bottom: 1px dashed;
     padding-bottom: 12px;
 }
-.total-changes-main form {
-  width: 80%;
-}
+/*.total-changes-main form {
+  width: 90%;
+}*/
 .total-changes-main form .form-group,
 .total-changes-main form .dropdown.bootstrap-select.countrypicker {
   width: 100%;
@@ -1007,8 +1005,8 @@ div#total-changes .nh_addRoom {
   border-radius: unset;
 }
 .paymet-method-images {
-  padding-top: 25px;
-  padding-left: 25px;
+  /*padding-top: 25px;*/
+  padding-left: 10px;
 }
 .paymet-method-images img {
   width: 4.625rem;
@@ -1037,7 +1035,7 @@ div#total-changes .nh_addRoom {
 }
 .tc-third-col .second-col-form .btn-primary {
   background: #8798B0;
-  margin-top: 1.25rem;
+  margin-top: 20px
   transition: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -1045,6 +1043,7 @@ div#total-changes .nh_addRoom {
   padding: .75rem 1.1875rem;
   width: 100%;
   border-color: #8798B0;
+  height: 60px;
 }
 .tc-third-col .second-col-form .btn-primary:hover {
   border-color: #8798B0;
@@ -1263,9 +1262,9 @@ p.tax.net-tex {
   padding-bottom: 12px;
   margin-bottom: 0px;
 }
-.cart-items-chagnes .net-sub-total {
+/*.cart-items-chagnes .net-sub-total {
     margin-top: 35px;
-}
+}*/
 p.total-price.net-total-price {
   padding-top: 10px;
   color: #383838;
@@ -1274,9 +1273,9 @@ p.sub-total span.price.text-right {
   position: relative;
   top: -15px;
 }
-.tc-col.tc-first-col {
+/*.tc-col.tc-first-col {
   padding-right: 35px;
-}
+}*/
 .tc-col.tc-first-col .h1 {
   padding-left: 0px;
 }
@@ -1290,10 +1289,797 @@ select.mdb-select.md-form {
     height: 48px;
     padding-left: 15px;
     background: transparent;
-    border: none;
-    border-bottom: 1px solid;
+/*    border: none;
+    border-bottom: 1px solid;*/
 }
 .tc-col.tc-second-col form .form-group i {
 position: relative;
     top: -15px;
   }
+
+
+
+
+
+/*********** New Design styling start ***********/
+.wizard-inner ul.nav.nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wizard-inner ul.nav.nav-tabs .step-item {
+    width: 18%;
+    padding: 0px 0px 0px 30px;
+    margin-top: 28px;
+}
+.wizard-inner li.step-item-one {
+    width: 22%;
+    margin-left: auto;
+    padding-left: 8%;
+    margin-top: 28px;
+}
+.wizard-inner ul.nav.nav-tabs li.logo-image {
+  width: 10%;
+  text-align: center;
+}
+.wizard-inner ul.nav.nav-tabs li.currency-block {
+  width: 10%;
+  margin-left: auto;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-top: 23px;
+}
+.wizard-inner ul.nav.nav-tabs li.logo-image img {
+  width: 60px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.wizard-inner ul.nav.nav-tabs li.logo-image {
+  background-color: #8697af;
+}
+
+.wizard-inner ul.nav.nav-tabs li hr {
+    width: 30%;
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.wizard-inner ul.nav.nav-tabs li a {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  color: #373737;
+}
+.guests-rooms-main h1 {
+    font-family: Ovo;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373737;
+    text-transform: uppercase;
+}
+div#TextBoxesGroup .nh_formGroupRow {
+  display: flex;
+  /*width: 75%;*/
+  margin: 0 auto;
+}
+div#TextBoxesGroup .nh_formGroupRow  .form-group {
+  width: 48%;
+  margin: 0 auto;
+}
+.guests-rooms-main .nh_addRoom {
+    text-align: center;
+    /*width: 71.5%;*/
+    margin: 0 auto;
+    border-radius: 3px;
+    border: solid 1px #e0e5eb;
+    background-color: #f6f6f6;
+/*    padding: 17px 0px;*/
+    margin-top: 30px;
+}
+.guests-rooms-main .nh_addRoom .btn {
+     width: 100%;
+    padding: 17px 0px;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.45px;
+    color: #bac2d1;
+}
+.guests-rooms-main button.update-guests-btn {
+    border-radius: 3px;
+    border-color: #8798af;
+    background-color: #8798af;
+    margin-top: 30px;
+    padding: 15px 40px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.wizard .guests-room-tab .tab-content-main {
+    width: 1110px;
+    height: 433px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 60px 0px;
+    box-shadow: 0px 1px 34px 0 rgba(120, 120, 120, 0.15);
+    border: solid 1px #f6f6f6;
+    background-color: #ffffff;
+}
+.wizard .guests-room-tab div#step1 .guests-rooms-main {
+    width: 66%;
+    margin: 0 auto;
+}
+.nh_formGroupRow .adult {
+    margin-left: 0px !important;
+}
+.nh_formGroupRow .children {
+    margin-right: 0px !important;
+}
+#TextBoxesGroup .nh_roomAddition a {
+  font-family: Ovo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #8798af;
+}
+.guests-rooms-main #TextBoxesGroup {
+    margin-top: 60px;
+}
+.form-group .form-control {
+font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #373737;
+  text-transform: uppercase;
+  height: 45px;
+}
+.guests-rooms-main .nh_addRoom button#addRoom i.fas {
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    padding: 2px;
+    font-size: 8px;
+    bottom: 2px;
+    position: relative;
+    margin-right: 6px;
+}
+div#TextBoxesGroup > div {
+    margin-bottom: 20px;
+}
+.wizard-inner .currency-block {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373737;
+}
+.wizard-inner li.currency-block i.fa {
+  color: #bac2d1;
+  padding-top: 8px;
+}
+.wizard-inner ul.nav.nav-tabs li span {
+ font-family: Oswald;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8798b0;
+  text-transform: uppercase;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+
+    border: solid 1px #e0e5eb;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 34px;
+    left: -48px;
+    position: absolute;
+    top: 0px;
+    width: 34px;
+}
+
+.round label:after {
+     border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 9px;
+    opacity: 0;
+    position: absolute;
+    top: 11px;
+    transform: rotate(-45deg);
+    width: 15px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  border: solid 1px #e0e5eb;
+   background-color: #8697af;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.wizard-inner ul.nav.nav-tabs li .form-group.round {
+  text-transform: uppercase;
+}
+.wizard-inner .nav-tabs {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+/** Calender page **/
+.wizard .guests-room-tab #step2.tab-content-main {
+  height: 753px;
+  padding-top: 30px;
+}
+#step2 section.nh_clReservation input#inlinePicker {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #373737;
+  border: solid 1px #e0e5eb;
+  background-color: #e0e5eb;
+  text-transform: uppercase;
+}
+#step2 section.nh_clReservation .booking-date-main {
+  width: 910px;
+  margin: 0 auto;
+
+}
+.booking-date-main table.table-condensed th.month {
+  font-family: Ovo;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373737;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+}
+.booking-date-main table.table-condensed th.prev.available i.fa {
+  position: absolute;
+  left: -45px;
+  top: 280px;
+  color: #000;
+  font-size: 30px;
+}
+.booking-date-main table.table-condensed th.next.available i.fa {
+  top: 280px;
+  right: -42px;
+  position: absolute;
+  color: #000;
+  font-size: 30px;
+}
+.booking-date-main .daterangepicker th {
+  font-family: Ovo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #8798af;
+  padding-bottom: 15px;
+}
+.booking-date-main .daterangepicker .calendar td {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #000000;
+  width: 58px;
+  height: 60px;
+  border: solid 1px #e0e5eb;
+  opacity: 0.6;
+}
+.booking-date-main .calendar .nh_updateButtons button.btn.nh_btnGuest {
+  margin-top: 56px;
+}
+.booking-date-main button.btn.nh_btnGuest {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  padding: 17px 0px;
+  width: 270px;
+}
+.booking-date-main .daterangepicker.ltr .calendar.left .calendar-table {
+    padding-right: 30px;
+}
+.booking-date-main .daterangepicker.opensright:after {
+  display: none;
+}
+.booking-date-main .nh_updateButtons button.btnGoback {
+  color: #373737;
+}
+
+/** Rooms Detail page **/
+.wizard .guests-room-tab #step3.tab-content-main {
+    height: auto;
+    padding-top: 60px;
+}
+.wizard .guests-room-tab #step3 .rooms-detail-main {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.wizard .guests-room-tab #step3 .room-content {
+    display: flex;
+    position: relative;
+    border-radius: 3px;
+}
+.wizard .guests-room-tab #step3 .room-info-image {
+    width: 30%;
+}
+.wizard .guests-room-tab #step3 .room-info-content {
+    width: 70%;
+}
+.wizard .guests-room-tab #step3 .room-info-description {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.wizard .guests-room-tab #step3 .description-text {
+    width: 60%;
+    margin-top: 10px;
+    padding-left: 12px;
+}
+.wizard .guests-room-tab #step3 .description-price-info {
+  width: 40%;
+  text-align: right;
+}
+.wizard .guests-room-tab #step3 .description-features {
+  width: 72%;
+  background-color: #f6f6f6;
+  height: 60px;
+  padding-top: 15px;
+  margin-left: -15px;
+  position: absolute;
+  bottom: 0px;
+}
+.wizard .guests-room-tab #step3 .feature-items span {
+  padding: 0px 15px;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: #373737;
+}
+.room-info-description .description-price-info button.btn.nh_btnGuest {
+  display: initial;
+}
+div#step3 .rooms-detail-main .h2 {
+ font-family: Ovo;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8798af;
+  margin-bottom: 10px;
+}
+div#step3 .rooms-detail-main .para {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: #373737;
+}
+.description-price-info .price {
+  border: solid 1px #e0e5eb;
+  background-color: #e0e5eb;
+  width: 235px;
+  float: right;
+  height: 70px;
+  font-family: Ovo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373737;
+  padding-top: 20px;
+}
+.description-price-info .price img {
+  position: relative;
+  top: -4px;
+}
+.room-info-description .description-price-info .book {
+  height: 45px;
+  width: 235px;
+  margin-top: 10px;
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.rooms-detail-main .rooms-info-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.rooms-detail-main .rooms-info-header .h1 {
+  font-family: Ovo;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373737;
+  text-transform: uppercase;
+}
+.rooms-detail-main .rooms-info-header img {
+  position: relative;
+  top: -8px;
+}
+.rooms-detail-main .view-room-detail {
+  font-family: Oswald;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #8798af;
+  margin-top: 17px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+.rooms-detail-main .room-info {
+  box-shadow: 0px 1px 34px 0 rgba(120, 120, 120, 0.15);
+  border: solid 1px #e0e5eb;
+}
+
+.detail-description {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 30px 0px 30px;
+}
+.description-content {
+    width: 58%;
+}
+.description-price {
+    width: 42%;
+}
+.price-box {
+    border: solid 1px #e0e5eb;
+    width: 95%;
+    float: right;
+}
+.price-box p {
+  font-family: Ovo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8798af;
+  padding: 20px 0px 0px 20px;
+}
+.price-box span {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: #373737;
+}
+.price-box .price {
+  padding: 0px 20px 22px 20px;
+}
+.price-box hr {
+    width: 85%;
+}
+.price-box .subtotal {
+  padding: 9px 20px;
+  background-color: #e0e5eb;
+}
+.description-price .price-box .checkout {
+    margin: 0px;
+    width: 100%;
+    display: block;
+    font-family: Oswald;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    height: 60px;
+} 
+#step3 .rooms-detail-main .sub-heading.h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.room-features {
+    margin: 20px 0px;
+}
+.description-detail-text .room-features.feature-items span {
+  padding-left: 0px !important;
+}
+.description-detail-text .h2  {
+  margin-bottom: 20px;
+}
+.wizard .guests-room-tab #step3 .room-details.feature-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wizard .guests-room-tab #step3 .room-details.feature-items span {
+  width: 25%;
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+}
+.room-details.feature-items img {
+  padding-bottom: 15px;
+  width: 32px;
+}
+.wizard .guests-room-tab #step3 .view-room-detail i {
+    padding-left: 10px;
+}
+.room-desccription-detail-main {
+    box-shadow: 0px 1px 34px 0 rgba(120, 120, 120, 0.15);
+    border: solid 1px #e0e5eb;
+}
+.room-desccription-detail-main > hr {
+    width: 95%;
+    border-top: 2px solid #f6f6f6;
+}
+.room-desccription-detail-main {
+  display: none;
+}
+.room-content-conainer {
+    margin-bottom: 30px;
+}
+
+/** Check Out **/
+
+.checkout-tab-container .tc-col .h1 {
+ font-family: Ovo;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  color: #373737;
+  text-transform: uppercase;
+  padding-bottom: 28px;
+}
+.wizard .guests-room-tab #complete {
+  height: 769px;
+}
+.checkout-tab-container .tc-col .form-group .form-control {
+    text-align: left;
+    text-transform: initial;
+}
+.checkout-tab-container textarea#address {
+  border: 1px solid #ced4da;
+  width: 100%;
+  padding-left: 10px;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+}
+.second-col-form .form-row button.btn {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: var(--white);
+}
+
+/*.charges-cart-main {
+    width: 90%;
+    margin: 0 auto;
+}*/
+.cart-items-charges p span {
+    font-family: Oswald;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.45px;
+    text-align: right;
+    color: #373737;
+}
+.cart-items-charges p span.rooms {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: #8798af;
+}
+p.add-code.sub-heading {
+    font-family: Ovo;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8798af;
+    margin-top: 30px;
+}
+.price-info {
+  margin-top: 30px;
+  width: 95%;
+  margin: 30px auto;
+}
+.price-info p {
+    border: solid 1px #e0e5eb;
+    height: 45px;
+    margin: 0px;
+    padding: 8px 20px;
+}
+.charges-cart-main .price-info p.total {
+    background-color: #e0e5eb;
+}
+.charges-cart-main  button#addRoom {
+    border-radius: 3px;
+    border: solid 1px #e0e5eb;
+    background-color: #f6f6f6;
+    height: 60px;
+    width: 100%;
+    font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  color: #bac2d1;
+
+}
+.charges-cart-main button#addRoom i {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 2px;
+  font-size: 9px;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.input-group.enter-code input {
+  height: 45px;
+  opacity: 0.3;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: left;
+  color: rgba(55, 55, 55, 0.3);
+}
+.input-group.enter-code .input-group-append {
+    background-color: #e0e5eb;
+    
+}
+.input-group.enter-code .input-group-append button.btn {
+    font-family: Oswald;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #bac2d1;
+  border: none;
+}
+.input-group.enter-code .input-group-append button.btn:hover {
+  background-color: #8798B0;
+}
+.tc-first-col .cart-items-charges .form-row .form-group i {
+      margin-top: -38px;
+} 
+.discount-code .form-group {
+    margin-bottom: 0px;
+}
+p.add-code.special-requests.sub-heading {
+    margin-top: -6px !important;
+}
+.tc-col.tc-first-col {
+    padding-left: 20px;
+}

@@ -718,7 +718,7 @@
             if (!disabled)
               cname += 'available';
             html += '<td class="' + cname.replace(/^\s+|\s+$/g, '') + '" data-title="' + 'r' + row + 'c' + col +
-              '">' + calendar[row][col].date() + '<span class="date-price"><span class="date-currency">pkr</span>16,000</span></td>';
+              '">' + calendar[row][col].date();// + '<span class="date-price"><span class="date-currency">pkr</span>16,000</span></td>';
           }
           html += '</tr>';
         }

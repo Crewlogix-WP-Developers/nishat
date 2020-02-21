@@ -21,7 +21,7 @@ jQuery(function($){
 	var newTextBoxDiv = $(document.createElement('div'))
 	     .attr("id", 'TextBoxDiv' + counter);
                 
-	newTextBoxDiv.after().html('<div class="nh_formGroupRow row"><div class="col-md-2 nh_roomAddition"><a href="#" id="removeRoom"> <i class="fas fa-times"></i> Room '+ counter +'</a></div><div class="form-group col-md-4"><select class="form-control"><option>1 Adult</option><option>2 Adults</option><option>3 Adults</option><option>4 Adults</option></select><i class="fa fa-chevron-down"></i></div><div class="form-group col-md-4"> <select class="form-control"> <option>0 Children </option><option>1 Children</option> <option>2 Children</option><option>3 Children</option></select><i class="fa fa-chevron-down"></i></div></div>');
+	newTextBoxDiv.after().html('<div class="nh_roomAddition"><a href="#" id="removeRoom"> <i class="fas fa-times"></i> Room '+ counter +'</a></div> <div class="nh_formGroupRow"><div class="form-group adult"><select class="form-control"><option>1 Adult</option><option>2 Adults</option><option>3 Adults</option><option>4 Adults</option></select><i class="fa fa-chevron-down"></i></div><div class="form-group children"> <select class="form-control"> <option>0 Children </option><option>1 Children</option> <option>2 Children</option><option>3 Children</option></select><i class="fa fa-chevron-down"></i></div></div>');
             
 	newTextBoxDiv.appendTo("#TextBoxesGroup");		
 	counter++;
