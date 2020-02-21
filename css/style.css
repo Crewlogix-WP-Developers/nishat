@@ -69,20 +69,18 @@ i.fas.fa-chevron-down {
 }
 
  select::-ms-expand {
-        display: none;
-    }
-     select + i.fa {
-        float: right;
-        margin-top: -23px;
-        margin-right: 10px;
-        pointer-events: none;
-        background-color: transparent;
-        color:#bac2d1;
-        padding-right: 5px;
-        font-size: 14px;
-    }
-
-
+  display: none;
+}
+select + i.fa {
+  float: right;
+  margin-top: -23px;
+  margin-right: 10px;
+  pointer-events: none;
+  background-color: transparent;
+  color:#bac2d1;
+  padding-right: 5px;
+  font-size: 14px;
+}
 .nav-tabs .nav-link:hover {
   background-color: #cacaca;
   border-color: #383838;
@@ -110,25 +108,13 @@ padding-top: 15px;
 color: #383838;
 }
 
-/*.form-control {
-  border: none;
-    border-bottom: 1px solid;
-    border-radius: 0;
-    padding-bottom: 10px;
-    height: 36px;
-    color: #383838;
-}*/
 select{
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -o-appearance: none;
-        appearance: none; 
-        outline:none;
-     }
-/*.nh_addRoom {
-    clear: both;
-    padding: 0px 0px 40px;
-}*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none; 
+  outline:none;
+}
 .nh_addRoom a {
   color: #8798B0;
 }
@@ -147,12 +133,6 @@ button.btn.nh_btnGuest {
 button.btn.nh_btnGuest:hover {
   background-color: #8798B0;
 }
-/*.nh_roomAddition {
-  padding-top: 5px;
-text-align: right;
-    padding-right: 30px;
-}*/
-
 .nh_roomAddition i {
   color: #8798B0;
   padding-right: 5px;
@@ -187,27 +167,11 @@ border:none;
     border-bottom: 1px solid;
     border-radius: 0;
 }
-/*.daterangepicker th.month {
-    width: auto;
-    font-size: 36px;
-    font-weight: 300;
-}*/
 .daterangepicker .calendar {
     width: 50%;
     max-width: 50%;
 
 }
-/*.daterangepicker .calendar td {
-    white-space: nowrap;
-    text-align: center;
-    min-width: 38px;
-    font-size: 34px;
-    font-weight: 300;
-    border-color: #383838;
-    color: #383838;
-    padding: 9px 0px;
-    border-radius: 0
-}*/
 .daterangepicker {
     width: 100%;
 }
@@ -229,11 +193,7 @@ color: #383838;
         background: linear-gradient(to bottom right, #606060, #606060 49%, #383838 50%, #606060 52%, #606060) !important;
 
 }
-/*.daterangepicker th {
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: 400;
-  }*/
+
 .daterangepicker .daterangepicker_input {
     display: none;
 }
@@ -282,9 +242,9 @@ span.date-price {
   font-weight: 700;
 }
 .accommodations-tab-header,
-.accommodations-add-code-section {
+/*.accommodations-add-code-section {
   text-align: center;
-}
+}*/
 .accommodations-tab-main .accommodations-tab-header button {
   color: #444;
   font-weight: 700;
@@ -294,30 +254,23 @@ span.date-price {
   border-bottom: 5px solid rgb(149, 144, 137);
   margin-top: 10px;
 }
-/*.accommodations-add-code-section {
-  margin-top: 20px;
-  position: absolute;
-  z-index: 10;
-  background-color: #fff;
-  left: 40%;
-}*/
-.accommodations-add-code-section .acmd-add-code {
+/*.accommodations-add-code-section .acmd-add-code {
   width: 250px;
   margin: 0 auto;
   border-bottom: 1px solid #141414;
   padding: 5px 0px;
-}
-.accommodations-add-code-section .acmd-add-code a {
+}*/
+/*.accommodations-add-code-section .acmd-add-code a {
   color: #141414;
   line-height: 26px;
 }
 .accommodations-add-code-section .acmd-add-code a:hover {
   text-decoration: none;
-}
+}*/
 /*.accommodations-add-code-section .acmd-add-code span {
   float: left;
 }*/
-.accommodations-add-code-section .acmd-add-code i {
+/*.accommodations-add-code-section .acmd-add-code i {
   padding-left: 130px;
   font-size: 16px;
 }
@@ -339,8 +292,8 @@ span.date-price {
   font-size: 1rem;
   background: transparent;
   border: 1px solid #383838;
-}
-.accommodations-add-code-section .openDiscoutCode input.text {
+}*/
+/*.accommodations-add-code-section .openDiscoutCode input.text {
   border: 1px solid #383838;
   padding: 0 1.625rem 0 1rem;
 }
@@ -376,7 +329,7 @@ i.fas.fa-chevron-up {
 }
 .accommodations-add-code-section.activeForm .acmd-add-code {
   border-bottom: none;
-}
+}*/
 .accommodations-tab-main .container {
   margin-top: 90px;
 }
@@ -851,12 +804,6 @@ padding: 40px 30px 15px;
     box-shadow: none;
 }
 
-.form-group label.required {
-/*    position: absolute;*/
-    /*right: -5%;*/
-/*    color: red;
-    font-size: 22px;*/
-}
 .nh_cancelReservation .modal-content .form-group button.btn.nh_btnGuest {
 margin: 0;
     display: unset;
@@ -891,11 +838,7 @@ padding-bottom: 0;
 nav i.fas.fa-chevron-down {
   display: none;
 }
-/*th.next.available, th.prev.available {
-    border: 1px solid #ccc;
-    background-color: #f5f5f5;
-    border-radius: 50%;
-}*/
+
 th.next.available i, th.prev.available i{
   font-size: 22px;
     line-height: 34px;
@@ -917,19 +860,7 @@ div#total-changes .nh_addRoom {
     width: 33%;
     padding: 0px 20px;
 }
-/*.total-changes-main .h1 {
-  margin-bottom: 2.125rem;
-  font-size: 1.5rem;
-  font-weight: 100;
-  line-height: 1.1;
-  padding: 0 1.5625rem;
-}*/
-/*.tc-col.tc-second-col {
-    border-left: 1px dashed #141414;
-}*/
-/*.tc-col.tc-third-col {
-  border-left: 1px dashed #141414;
-}*/
+
 .form-row .form-group.required .control-label:after {
   content:"*";
   color:red;
@@ -991,9 +922,6 @@ div#total-changes .nh_addRoom {
     border-bottom: 1px dashed;
     padding-bottom: 12px;
 }
-/*.total-changes-main form {
-  width: 90%;
-}*/
 .total-changes-main form .form-group,
 .total-changes-main form .dropdown.bootstrap-select.countrypicker {
   width: 100%;
@@ -1003,10 +931,6 @@ div#total-changes .nh_addRoom {
   border: none;
   border-bottom: 1px solid;
   border-radius: unset;
-}
-.paymet-method-images {
-  /*padding-top: 25px;*/
-  /*padding-left: 10px;*/
 }
 .paymet-method-images img {
   width: 4.625rem;
@@ -1262,9 +1186,6 @@ p.tax.net-tex {
   padding-bottom: 12px;
   margin-bottom: 0px;
 }
-/*.cart-items-chagnes .net-sub-total {
-    margin-top: 35px;
-}*/
 p.total-price.net-total-price {
   padding-top: 10px;
   color: #383838;
@@ -1273,9 +1194,6 @@ p.sub-total span.price.text-right {
   position: relative;
   top: -15px;
 }
-/*.tc-col.tc-first-col {
-  padding-right: 35px;
-}*/
 .tc-col.tc-first-col .h1 {
   padding-left: 0px;
 }
@@ -1289,8 +1207,6 @@ select.mdb-select.md-form {
     height: 48px;
     padding-left: 15px;
     background: transparent;
-/*    border: none;
-    border-bottom: 1px solid;*/
 }
 .tc-col.tc-second-col form .form-group i {
     position: relative;
@@ -1446,9 +1362,6 @@ div#TextBoxesGroup .nh_formGroupRow  .form-group {
   text-align: center;
   color: #8798af;
 }
-/*.guests-rooms-main #TextBoxesGroup {
-    margin-top: 60px;
-}*/
 .form-group .form-control {
 font-family: Oswald;
   font-size: 15px;
@@ -1961,10 +1874,6 @@ div#step3 .rooms-detail-main .para {
   color: var(--white);
 }
 
-/*.charges-cart-main {
-    width: 90%;
-    margin: 0 auto;
-}*/
 .cart-items-charges p span {
     font-family: Oswald;
     font-size: 15px;
@@ -2037,7 +1946,7 @@ p.add-code.sub-heading {
   font-size: 9px;
   margin-right: 5px;
   position: relative;
-  top: -2px;
+  top: -3px;
 }
 .input-group.enter-code input {
   height: 45px;
@@ -2090,9 +1999,6 @@ form#main-form #complete .checkout-tab-container .form-group {
     width: 95%;
     margin: 0 auto;
 }
-/*.accommodations-add-code-section {
-  display: none;
-}*/
 .daterangepicker td.start-date {
     background-color: #dedede;
 }
@@ -2115,13 +2021,10 @@ div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked)
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:before {
   content: '';
   position: absolute;
-  left: 0; top: 0;
+  left: 5px; top: -5px;
   width: 25px; 
   height: 25px;
-/*  border: 2px solid #ccc;*/
   background: #fff;
-/*  border-radius: 4px;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);*/
   border-radius: 3px;
   border: solid 1px #e0e5eb;
 }
@@ -2130,11 +2033,13 @@ div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked)
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:after {
   content: '\2713\0020';
   position: absolute;
-  top: .15em; 
+  top: -5px; 
   left: .22em;
   font-size: 1.3em;
   line-height: 0.8;
-  color: #09ad7e;
+  padding-left: 5px;
+  padding-top: 5px;
+  color: #fff;
   transition: all .2s;
   font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
 }
@@ -2146,6 +2051,10 @@ div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked)
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:after {
   opacity: 1;
   transform: scale(1);
+  background-color: #8798af;
+  width: 25px;
+  height: 25px;
+  border: solid 1px #e0e5eb;
 }
 /* disabled checkbox */
 div#complete .second-col-form .last-check-fields [type="checkbox"]:disabled:not(:checked) + label:before,
@@ -2302,9 +2211,6 @@ div#complete .second-col-form .last-check-fields span {
     left: 40px;
     top: 55%;
   }
-/*  .booking-date-main .calendar .nh_updateButtons button.btn.nh_btnGuest {
-    margin-top: 0px;
-  }*/
   .wizard .guests-room-tab #step2.tab-content-main {
     height: auto;
   }
@@ -2326,9 +2232,6 @@ div#complete .second-col-form .last-check-fields span {
   .wizard .guests-room-tab #complete {
     width: 90%;
   }
-  .accommodations-add-code-section {
-    display: none;
-  }
   .calendar-main .btnGoback.prev-step {
     margin-right: 0px;
   }
@@ -2346,9 +2249,6 @@ div#complete .second-col-form .last-check-fields span {
     width: 100%;
     margin-bottom: 10px !important;
   }
-/*  .wizard .guests-room-tab #step3 .description-features {
-    width: 100%;
-  }*/
   .wizard .guests-room-tab #step3 .description-features span {
    text-align: right;
    width: 100%;
