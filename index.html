@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/calendar.css" />
     <link rel="stylesheet" href="css/bootstrap-select-country.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <!-- <link rel="stylesheet" href="css/media.css" /> -->
 </head>
 
 <body>
@@ -40,12 +40,12 @@
                     <li role="presentation" class="active step-item-one">
                         <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
 							<div class="form-group round">
-    	                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><label class="form-check-label" for="defaultCheck1"> </label>Addults & Children<hr />
+    	                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked><label class="form-check-label" for="defaultCheck1"> </label>Addults & Children<hr />
 								
                         	</div>
                             
                         </a>
-                        <span> 2/0 </span>
+                        <span> 2 /</span><span> 0 </span>
                     </li>
 
                     <li role="presentation" class="disabled step-item step-item-two">
@@ -88,7 +88,7 @@
                 </ul>
             </div>
 
-            <div class="container">
+            <div class="container content-container">
                 <form role="form form-guests-room" id="main-form">
                     <div class="tab-content guests-room-tab">
                         <div class="tab-pane active tab-content-main" role="tabpanel" id="step1">
@@ -96,7 +96,7 @@
 
                             <div class="guests-rooms-main">
                                 <h1> Guests &  ROOMS </h1>
-                                <form class="nh_guestFrom">
+                                <div class="nh_guestFrom">
                                     <div id="TextBoxesGroup">
                                         <div id="TextBoxDiv1">
                                         	<div class="nh_roomAddition">
@@ -130,7 +130,7 @@
                                         <button type="button" class="btn" id="addRoom"> <i class="fas fa-plus"></i> Add More room</button>
                                     </div>
                                     <button type="button" class="btn next-step update-guests-btn">Update Guestes & ROOMS</button>
-                                </form>
+                                </div>
 
                             </div>
                         </div>
@@ -152,26 +152,7 @@
 						          <div class="calendar">
 						          <!--  <p class="nh_calendarMessage"> Daily rates starting from</p> -->
 						           <div class="nh_updateButtons text-center">
-						            <div class="accommodations-add-code-section">
-						              <!-- <div class="acmd-add-code">
-						                <a>
-						                  Add Code 
-						                  <i class="fas fa-chevron-down" class="down"></i>
-						                  <i class="fas fa-chevron-up" class="up"></i>
-						                </a>
-						              </div> -->
-						              <form class="openDiscoutCode">
-						                <select class="js-example-basic-single" name="state">
-						                <option value="Discount Code">Discount Code</option>
-						                  <option value="Group Attendee">Group Attendee</option>
-						                    <option value="Group Attendee">Rate Access/Corporate Code</option>
-						                      <option value="Group Attendee">Travel Agency Code</option>
-						                </select>
-						                <input type="text" name="couponValue" class="text">
-						                <input type="button" name="cancel" value="CANCEL" class="cancel">
-						                <input type="submit" name="submit" value="ADD" class="add">
-						              </form>
-						            </div>
+
 						            <!-- these buttons functionality (back and forth) are controlling by classes -->
 						           <button class="btn btn-default nh_btnGuest btnGoback prev-step">Go Back</button>
 						           <button class="btn btn-default nh_btnGuest next-step confirm-stay">Confirm Dates of stay</button>
@@ -516,27 +497,23 @@
 							             <!-- <label class="required">*</label> -->
 							              <input type="date" class="form-control" id="inputfname4" placeholder="MM/YY">
 							          </div>
-							          <div class="form-check">
-							            <label>
-							              <input class="form-check-input position-static" type="checkbox" id="inputcheckbox" value="option1" aria-label="...">
-							                Use the same address as contact information. 
-							                  <span class="checkmark"></span>
-							              </label>
-							          </div>
-							          <div class="form-check">
-							            <label>
-							              <input class="form-check-input position-static" type="checkbox" id="inputcheckbox1" value="option1" aria-label="...">
-							                Notify me about special offers 
-							                <span class="checkmark"></span>
-							              </label>
-							          </div>
-							          <div class="form-check">
-							            <label>
-							              <input class="form-check-input position-static" type="checkbox" id="inputcheckbox2" value="option1" aria-label="...">
-							                I have read and agree to the <a href="#">Terms & Conditions </a> and <a href="#">Privacy Policy</a>
-							                <span class="checkmark"></span>
-							              </label>
-							          </div>
+							         	<div class="last-check-fields">
+								          	<div class="form-group">
+				    	                        <input class="form-check-input" type="checkbox" value="" id="same-address">
+				    	                        <label class="form-check-label" for="same-address"></label> 
+				    	                        Use the same address as contact information.
+			                        		</div>
+			                        		<div class="form-group">
+				    	                        <input class="form-check-input" type="checkbox" value="" id="notify">
+				    	                        <label class="form-check-label" for="notify"></label>
+				    	                        Notify me about special offers.
+			                        		</div>
+			                        		<div class="form-group">
+				    	                        <input class="form-check-input" type="checkbox" value="" id="policy">
+				    	                        <label class="form-check-label" for="policy"></label> 
+				    	                        I have read and agree to the <span> Terms & Conditions  and Privacy Policy </span>
+			                        		</div>
+							         	</div>
 							          <button type="submit" class="btn btn-primary page-submit">BOOK NOW</button>
 							        </div>
 							      </div>
@@ -565,7 +542,7 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/calendar.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/bootstrap-select-country.min.js"></script>

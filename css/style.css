@@ -294,13 +294,13 @@ span.date-price {
   border-bottom: 5px solid rgb(149, 144, 137);
   margin-top: 10px;
 }
-.accommodations-add-code-section {
+/*.accommodations-add-code-section {
   margin-top: 20px;
   position: absolute;
   z-index: 10;
   background-color: #fff;
   left: 40%;
-}
+}*/
 .accommodations-add-code-section .acmd-add-code {
   width: 250px;
   margin: 0 auto;
@@ -1293,9 +1293,9 @@ select.mdb-select.md-form {
     border-bottom: 1px solid;*/
 }
 .tc-col.tc-second-col form .form-group i {
-position: relative;
+    position: relative;
     top: -15px;
-  }
+}
 
 
 
@@ -1446,9 +1446,9 @@ div#TextBoxesGroup .nh_formGroupRow  .form-group {
   text-align: center;
   color: #8798af;
 }
-.guests-rooms-main #TextBoxesGroup {
+/*.guests-rooms-main #TextBoxesGroup {
     margin-top: 60px;
-}
+}*/
 .form-group .form-control {
 font-family: Oswald;
   font-size: 15px;
@@ -2086,3 +2086,292 @@ p.add-code.special-requests.sub-heading {
 form#main-form #complete .checkout-tab-container .form-group {
     width: 100%;
 }
+.cart-items-charges .discount-code .form-row {
+    width: 95%;
+    margin: 0 auto;
+}
+/*.accommodations-add-code-section {
+  display: none;
+}*/
+
+
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked) + label,
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+  top: -15px;
+}
+
+/* checkbox aspect */
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked) + label:before,
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 25px; 
+  height: 25px;
+/*  border: 2px solid #ccc;*/
+  background: #fff;
+/*  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);*/
+  border-radius: 3px;
+  border: solid 1px #e0e5eb;
+}
+/* checked mark aspect */
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked) + label:after,
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:after {
+  content: '\2713\0020';
+  position: absolute;
+  top: .15em; 
+  left: .22em;
+  font-size: 1.3em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+}
+/* checked mark aspect changes */
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+div#complete .second-col-form .last-check-fields [type="checkbox"]:disabled:not(:checked) + label:before,
+div#complete .second-col-form .last-check-fields [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+div#complete .second-col-form .last-check-fields [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+div#complete .second-col-form .last-check-fields [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+div#complete .second-col-form .last-check-fields [type="checkbox"]:checked:focus + label:before,
+div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px dotted blue;
+}
+
+/* hover style just for information */
+div#complete .second-col-form .last-check-fields label:hover:before {
+  border: 2px solid #4778d9!important;
+}
+
+div#complete .second-col-form .last-check-fields {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  color: #373737;
+}
+div#complete .second-col-form .last-check-fields span {
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8798af;
+}
+
+/** RWD ***/
+
+@media screen and (max-width: 991px) { 
+  .wizard-inner ul.nav.nav-tabs li.logo-image {
+      width: 100%;
+      text-align: center;
+  }
+  .wizard-inner li.step-item-one,
+  .wizard-inner ul.nav.nav-tabs .step-item {
+    width: 50%;
+    padding-left: 15%;
+  }
+  .wizard-inner ul.nav.nav-tabs li.currency-block {
+    display: none;
+  }
+  .wizard-inner ul.nav.nav-tabs li hr {
+    display: none;
+  }
+  .wizard-inner ul.nav.nav-tabs {
+    padding-bottom: 20px;
+  }
+  .wizard .guests-room-tab .tab-content-main {
+    width: 90%;
+  }
+
+  #step2 section.nh_clReservation .booking-date-main {
+    width: 100%;
+  }
+  .wizard .guests-room-tab #step3 .room-content {
+    flex-wrap: wrap;
+  }
+  .wizard .guests-room-tab #step3 .rooms-detail-main {
+    width: 90%;
+  }
+  .wizard .guests-room-tab #step3 .description-text,
+  .wizard .guests-room-tab #step3 .description-price-info {
+    width: 100%;
+  }
+   .wizard .guests-room-tab #step3 .room-info-image {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+   }
+  .wizard .guests-room-tab #step3 .room-info-content {
+    width: 100%;
+  }
+  .wizard .guests-room-tab #step3 .description-features {
+    width: 100%;
+    position: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .description-price-info .price {
+    float: left;
+  }
+  .room-info-description .description-price-info .book {
+    margin-right: -10px;
+    height: 70px;
+    margin-top: 0px;
+
+  }
+  .wizard .guests-room-tab #step3 .description-features {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .description-content {
+    width: 100%;
+  }
+  .description-price {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .total-changes-main .tc-col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wizard .guests-room-tab #complete {
+    height: auto;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .daterangepicker.daterangepicker-inline {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .daterangepicker.ltr .calendar.left,
+  .daterangepicker.ltr .calendar.right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .daterangepicker .calendar {
+    max-width: 100%;
+  }
+  .booking-date-main .daterangepicker.ltr .calendar.left .calendar-table {
+    padding: 0px;
+  }
+  .booking-date-main table.table-condensed th.next.available i.fa {
+    right: 40px;
+    top: 55%;
+  }
+  .booking-date-main table.table-condensed th.prev.available i.fa {
+    left: 40px;
+    top: 55%;
+  }
+/*  .booking-date-main .calendar .nh_updateButtons button.btn.nh_btnGuest {
+    margin-top: 0px;
+  }*/
+  .wizard .guests-room-tab #step2.tab-content-main {
+    height: auto;
+  }
+  .guests-rooms-main button {
+    width: 100%;
+  }
+  .room-info-description .description-price-info .book  {
+    float: left;
+  }
+  .wizard .guests-room-tab #step3 .description-features span {
+    width: 50%;
+  }
+  div#step3 .rooms-detail-main .h2 {
+    text-align: center;
+  }
+  div#step3 .rooms-detail-main .para {
+    text-align: center;
+  }
+  .wizard .guests-room-tab #complete {
+    width: 90%;
+  }
+  .accommodations-add-code-section {
+    display: none;
+  }
+  .calendar-main .btnGoback.prev-step {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wizard-inner ul.nav.nav-tabs li.logo-image img {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  div#TextBoxesGroup .nh_formGroupRow {
+    flex-wrap: wrap;
+  }
+  div#TextBoxesGroup .nh_formGroupRow .form-group {
+    width: 100%;
+    margin-bottom: 10px !important;
+  }
+/*  .wizard .guests-room-tab #step3 .description-features {
+    width: 100%;
+  }*/
+  .wizard .guests-room-tab #step3 .description-features span {
+   text-align: right;
+   width: 100%;
+  }
+  .wizard .guests-room-tab #step3 .description-features span img {
+    float: left;
+  }
+  .detail-description {
+    padding: 40px 10px 0px 10px;
+  }
+  .description-price {
+    width: 100%;
+  }
+  .description-price-info .price,
+  .room-info-description .description-price-info .book {
+    width: 102%;
+  }
+  .price-box {
+    width: 100%;
+  }
+  .checkout-tab-container .tc-col .h1 {
+    font-size: 24px;
+  }
+  .wizard .guests-room-tab div#step1 .guests-rooms-main {
+    width: 90%;
+  }
+} 
+

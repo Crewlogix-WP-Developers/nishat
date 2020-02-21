@@ -116,14 +116,17 @@ jQuery(function($){
     $('.menu-item-wraper a').click(function(){
       $('.menu-item-wraper').slideToggle(500);
     });
+     
   }
   $('.total-changes-main .toggle-wraper').click(function(){
     $(this).find('.cart-value-toggle').slideToggle(900);
     $(this).toggleClass('cart-active');
 
+   
   });
 
 
+  $('step-item-one input[type="checkbox"]').prop( "checked", true );
 
   $('button.btn').click(function(){
     if (!$(this).hasClass('page-submit')) {
@@ -133,15 +136,22 @@ jQuery(function($){
     }
     if ($(this).hasClass('update-guests-btn')) {
        $('.step-item-two a').click();
+       $('.step-item-two input[type="checkbox"]').prop( "checked", true );
     }
     else if($(this).hasClass('confirm-stay')) {
        $('.step-item-three a').click();
+       $('.step-item-three input[type="checkbox"]').prop( "checked", true );
 
     }
     else if($(this).hasClass('book')) {
        $('.step-item-four a').click();
-
+       $('.step-item-four input[type="checkbox"]').prop( "checked", true );
     }
+     else if($(this).hasClass('btnGoback')) {
+       $('.step-item-one a').click();
+       $('.step-item-two input[type="checkbox"]').prop( "checked", false );
+    }
+
     // $('.step-item-two a').click();
     
   });
@@ -155,6 +165,10 @@ jQuery(function($){
     });
 
 
+    if(w_width < 991) {
+      $('.wizard .content-container').removeClass('container');
+      console.log(w_width);
+    }
 
 
     });// end of document.read
