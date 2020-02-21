@@ -652,7 +652,7 @@ width:450px;
 
 
 /*Footer CSS*/
-a.nh_startOver {
+/*a.nh_startOver {
     text-transform: uppercase;
     padding-left: 15px;
 }
@@ -675,7 +675,7 @@ footer a.nh_startOver img {
     top: -3px;
     left: -5px;
 
-}
+}*/
 .tab-content {
 min-height: 100%;
 }
@@ -2005,8 +2005,32 @@ form#main-form #complete .checkout-tab-container .form-group {
 .tc-col.tc-second-col .form-row .form-group select + i.fa {
   margin-top: -40px;
 }
+.booking-date-main .disable {
+  background: linear-gradient(to bottom right, #606060, #606060 49%, #383838 50%, #606060 52%, #606060) !important;
+}
 
 
+/** Footer **/
+/*.footer-container p {
+  background-color: #f6f6f6;
+  height: 60px;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #373737;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}*/
 
 div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
