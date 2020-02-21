@@ -2002,6 +2002,11 @@ form#main-form #complete .checkout-tab-container .form-group {
 .daterangepicker td.start-date {
     background-color: #dedede;
 }
+.tc-col.tc-second-col .form-row .form-group select + i.fa {
+  margin-top: -40px;
+}
+
+
 
 div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
