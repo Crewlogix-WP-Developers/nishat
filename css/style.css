@@ -2093,7 +2093,9 @@ form#main-form #complete .checkout-tab-container .form-group {
 /*.accommodations-add-code-section {
   display: none;
 }*/
-
+.daterangepicker td.start-date {
+    background-color: #dedede;
+}
 
 div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
