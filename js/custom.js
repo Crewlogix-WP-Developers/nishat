@@ -125,5 +125,37 @@ jQuery(function($){
 
 
 
+  $('button.btn').click(function(){
+    if (!$(this).hasClass('page-submit')) {
+      $("form#main-form").submit(function(e){
+          return false;
+      });
+    }
+    if ($(this).hasClass('update-guests-btn')) {
+       $('.step-item-two a').click();
+    }
+    else if($(this).hasClass('confirm-stay')) {
+       $('.step-item-three a').click();
+
+    }
+    else if($(this).hasClass('book')) {
+       $('.step-item-four a').click();
+
+    }
+    // $('.step-item-two a').click();
+    
+  });
+
+   // Room Detail page
+    $('.view-room-detail.show').click(function(){
+        $(this).parent('.room-info').siblings('.room-desccription-detail-main').slideToggle(1000);
+    });
+    $('.view-room-detail.hide').click(function(){
+        $(this).parent('.room-desccription-detail-main').slideToggle(1000);
+    });
+
+
+
+
     });// end of document.read
 });

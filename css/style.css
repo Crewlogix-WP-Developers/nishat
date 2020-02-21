@@ -1006,7 +1006,7 @@ div#total-changes .nh_addRoom {
 }
 .paymet-method-images {
   /*padding-top: 25px;*/
-  padding-left: 10px;
+  /*padding-left: 10px;*/
 }
 .paymet-method-images img {
   width: 4.625rem;
@@ -1417,7 +1417,7 @@ div#TextBoxesGroup .nh_formGroupRow  .form-group {
 }
 .wizard .guests-room-tab .tab-content-main {
     width: 1110px;
-    height: 433px;
+/*    height: 433px;*/
     margin: 0 auto;
     margin-top: 40px;
     padding: 60px 0px;
@@ -2082,4 +2082,7 @@ p.add-code.special-requests.sub-heading {
 }
 .tc-col.tc-first-col {
     padding-left: 20px;
+}
+form#main-form #complete .checkout-tab-container .form-group {
+    width: 100%;
 }

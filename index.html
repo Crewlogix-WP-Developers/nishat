@@ -48,7 +48,7 @@
                         <span> 2/0 </span>
                     </li>
 
-                    <li role="presentation" class="disabled step-item">
+                    <li role="presentation" class="disabled step-item step-item-two">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
                          	<div class="form-group round">
     	                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><label class="form-check-label" for="defaultCheck1"> </label>Dates of stay<hr />
@@ -58,7 +58,7 @@
                         </a>
                         <span> Select </span>
                     </li>
-                    <li role="presentation" class="disabled step-item">
+                    <li role="presentation" class="disabled step-item step-item-three">
                         <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
 	                        <div class="form-group round">
     	                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><label class="form-check-label" for="defaultCheck1"> </label>Accommodations<hr />
@@ -69,7 +69,7 @@
 	                        <span> Select </span>
                     </li>
 
-                    <li role="presentation" class="disabled step-item">
+                    <li role="presentation" class="disabled step-item step-item-four">
                         <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
 
                           	<div class="form-group round">
@@ -89,7 +89,7 @@
             </div>
 
             <div class="container">
-                <form role="form">
+                <form role="form form-guests-room" id="main-form">
                     <div class="tab-content guests-room-tab">
                         <div class="tab-pane active tab-content-main" role="tabpanel" id="step1">
                             <!-- start of first tab -->
@@ -174,7 +174,7 @@
 						            </div>
 						            <!-- these buttons functionality (back and forth) are controlling by classes -->
 						           <button class="btn btn-default nh_btnGuest btnGoback prev-step">Go Back</button>
-						           <button class="btn btn-default nh_btnGuest next-step">Confirm Dates of stay</button>
+						           <button class="btn btn-default nh_btnGuest next-step confirm-stay">Confirm Dates of stay</button>
 						         </div>
 						         </div>
 						       </div>
@@ -398,7 +398,7 @@
 										</p>
 										<p class="add-code sub-heading"> Add Code: </p> 
 
-										<form class="justify-content-center discount-code">
+										<div class="justify-content-center discount-code">
 									        <div class="form-row">
 									          <div class="form-group">
 									              <select class="mdb-select md-form form-control">
@@ -417,7 +417,7 @@
 												</div>
 									          
 									        </div>
-									     </form>
+									     </div>
 
 
 										<div class="price-info">
@@ -442,7 +442,7 @@
 							    </div><!-- end of the first-col -->
 							     <div class="tc-col tc-second-col">
 							      <p class="h1">Guest Information </p>
-							      <form class="justify-content-center">
+							      <div class="justify-content-center">
 							        <div class="form-row">
 							            <div class="form-group required">
 							               <!-- <label class="required">*</label> -->
@@ -493,7 +493,7 @@
 							                <input type="text" class="form-control" id="inputps" placeholder="Postal Code">
 							            </div>
 							        </div>
-							      </form>
+							      </div>
 							    </div><!-- end of the second-col -->
 							     <div class="tc-col tc-third-col">
 							      <p class="h1"> Payment Method </p>
@@ -502,7 +502,7 @@
 							          <img src="/updated/images/VI.svg">
 							          <img src="/updated/images/AX.svg">
 							        </div>
-							      <form class="justify-content-center second-col-form">
+							      <div class="justify-content-center second-col-form">
 							        <div class="form-row">
 							          <div class="form-group">
 							             <!-- <label class="required">*</label> -->
@@ -537,9 +537,9 @@
 							                <span class="checkmark"></span>
 							              </label>
 							          </div>
-							          <button type="submit" class="btn btn-primary">BOOK NOW</button>
+							          <button type="submit" class="btn btn-primary page-submit">BOOK NOW</button>
 							        </div>
-							      </form>
+							      </div>
 
 
 							    </div><!-- end of the third-col -->
@@ -570,7 +570,7 @@
     <script src="js/bootstrap-select.min.js"></script>
     <script src="js/bootstrap-select-country.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
 </body>
 

@@ -15,6 +15,13 @@ jQuery(function($){
             return false;
         }
     });
+    function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        }
+
 
     $(".next-step").click(function (e) {
 
@@ -26,6 +33,8 @@ jQuery(function($){
         $('.wizard .nav-tabs li.passed input[type="checkbox"]').prop( "checked", true );
         $('.wizard .nav-tabs li.active input[type="checkbox"]').prop( "checked", true );
         // $('.wizard .nav-tabs li.wating input[type="checkbox"]').prop( "checked", false );
+        var url  = window.location.href; 
+        console.log(url);
     });
 
     $(".prev-step").click(function (e) {
@@ -41,13 +50,7 @@ jQuery(function($){
         $('.wizard .nav-tabs li.active input[type="checkbox"]').prop( "checked", true );
     });
 
-		function nextTab(elem) {
-		    $(elem).next().find('a[data-toggle="tab"]').click();
-		}
-		function prevTab(elem) {
-		    $(elem).prev().find('a[data-toggle="tab"]').click();
-		}
-
+		
 
 
 
