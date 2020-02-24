@@ -2036,7 +2036,7 @@ form#main-form #complete .checkout-tab-container .form-group {
   display: none;
 }
 /** Footer **/
-/*.footer-container p {
+.footer-container p {
   background-color: #f6f6f6;
   height: 60px;
   font-family: Oswald;
@@ -2054,8 +2054,8 @@ form#main-form #complete .checkout-tab-container .form-group {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 0px;
-}*/
+    margin-top: 190px;
+}
 
 div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
