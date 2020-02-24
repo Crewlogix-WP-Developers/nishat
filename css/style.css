@@ -2008,8 +2008,33 @@ form#main-form #complete .checkout-tab-container .form-group {
 .booking-date-main .disable {
   background: linear-gradient(to bottom right, #606060, #606060 49%, #383838 50%, #606060 52%, #606060) !important;
 }
-
-
+.lang-currency-change-main {
+    width: 17%;
+    position: absolute;
+    right: 0px;
+    border: 1px solid #ced4da;
+    padding: 20px 20px;
+    z-index: 100;
+    background-color: #fff;
+}
+.lang-currency-change-main button {
+    width: 100%;
+    font-weight: 600;
+    display: block !important;
+}
+.lang-currency-change-main select + i.fa  {
+    margin-top: -40px;
+}
+.lang-currency-change-main button.update {
+  margin-top: 15px;
+  text-align: center;
+}
+.lang-currency-change-main label {
+    margin-bottom: 0px;
+}
+.lang-currency-change-main {
+  display: none;
+}
 /** Footer **/
 /*.footer-container p {
   background-color: #f6f6f6;

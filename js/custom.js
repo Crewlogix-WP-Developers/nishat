@@ -21,7 +21,7 @@ jQuery(function($){
 	var newTextBoxDiv = $(document.createElement('div'))
 	     .attr("id", 'TextBoxDiv' + counter);
                 
-	newTextBoxDiv.after().html('<div class="nh_roomAddition"><a href="#" id="removeRoom"> <i class="fas fa-times"></i> Room '+ counter +'</a></div> <div class="nh_formGroupRow"><div class="form-group adult"><select class="form-control"><option>1 Adult</option><option>2 Adults</option><option>3 Adults</option><option>4 Adults</option></select><i class="fa fa-chevron-down"></i></div><div class="form-group children"> <select class="form-control"> <option>0 Children </option><option>1 Children</option> <option>2 Children</option><option>3 Children</option></select><i class="fa fa-chevron-down"></i></div></div>');
+	newTextBoxDiv.after().html('<div class="nh_roomAddition"><span id="removeRoom"> <i class="fas fa-times"></i> Room '+ counter +'</span></div> <div class="nh_formGroupRow"><div class="form-group adult"><select class="form-control"><option>1 Adult</option><option>2 Adults</option><option>3 Adults</option><option>4 Adults</option></select><i class="fa fa-chevron-down"></i></div><div class="form-group children"> <select class="form-control"> <option>0 Children </option><option>1 Children</option> <option>2 Children</option><option>3 Children</option></select><i class="fa fa-chevron-down"></i></div></div>');
             
 	newTextBoxDiv.appendTo("#TextBoxesGroup");		
 	counter++;
@@ -137,7 +137,7 @@ jQuery(function($){
     if ($(this).hasClass('update-guests-btn')) {
        $('.step-item-two a').click();
        $('.step-item-two input[type="checkbox"]').prop( "checked", true );
-    }
+    } 
     else if($(this).hasClass('confirm-stay')) {
        $('.step-item-three a').click();
        $('.step-item-three input[type="checkbox"]').prop( "checked", true );
@@ -170,6 +170,29 @@ jQuery(function($){
       console.log(w_width);
     }
 
+    // Currency block
+    $('.wizard-inner li.currency-block').click(function(){
+      $('.lang-currency-change-main').slideToggle(1000);
+    });
+
+
+    // Removing room from first tab
+    $('button#addRoom').click(function(){
+      $('div#TextBoxesGroup div#TextBoxDiv1').siblings().addClass('more-rooms');
+
+       $('.more-rooms .nh_roomAddition ').find('i.fas').click(function(){
+          $(this).parents('.more-rooms').slideUp(900, function() {
+              $(this).remove();
+          });
+
+      });
+    });
+
+
+    // $('.nh_roomAddition').click(function(){
+    //   console.log('asdjgfkjdsf');
+
+    // });
 
     });// end of document.read
 });
