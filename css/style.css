@@ -1269,6 +1269,11 @@ select.mdb-select.md-form {
   line-height: 1.6;
   letter-spacing: 0.45px;
   color: #373737;
+  cursor: not-allowed;
+}
+.wizard-inner ul.nav.nav-tabs > li{
+  cursor: not-allowed;
+  pointer-events: none; 
 }
 .guests-rooms-main h1 {
     font-family: Ovo;
@@ -2056,6 +2061,12 @@ footer {
     width: 100%;
     margin-top: 190px;
 }
+.daterangepicker .calendar td.off {
+  opacity: 0;
+}
+
+
+
 
 div#complete .second-col-form .last-check-fields [type="checkbox"]:not(:checked),
 div#complete .second-col-form .last-check-fields [type="checkbox"]:checked {
